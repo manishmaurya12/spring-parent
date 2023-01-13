@@ -4,35 +4,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-<!--	<distributionManagement>-->
-<!--		<repository>-->
-<!--			<id>nextgen-pxp-mf-build&#45;&#45;pxp-mf</id>-->
-<!--			<name>nextgen-pxp-mf-build&#45;&#45;pxp-mf</name>-->
-<!--			<url>https://nextgen-pxp-mf-build-997401518295.d.codeartifact.us-east-2.amazonaws.com/maven/pxp-mf/</url>-->
-<!--		</repository>-->
-<!--	</distributionManagement>-->
+	<!--	<distributionManagement>-->
+	<!--		<repository>-->
+	<!--			<id>nextgen-pxp-mf-build&#45;&#45;pxp-mf</id>-->
+	<!--			<name>nextgen-pxp-mf-build&#45;&#45;pxp-mf</name>-->
+	<!--			<url>https://nextgen-pxp-mf-build-997401518295.d.codeartifact.us-east-2.amazonaws.com/maven/pxp-mf/</url>-->
+	<!--		</repository>-->
+	<!--	</distributionManagement>-->
 
-<!--	<repositories>-->
-<!--		<repository>-->
-<!--			<id>nextgen-pxp-mf-build&#45;&#45;pxp-mf-central</id>-->
-<!--			<name>nextgen-pxp-mf-build&#45;&#45;pxp-mf Repository Mirror</name>-->
-<!--			<url>https://nextgen-pxp-mf-build-997401518295.d.codeartifact.us-east-2.amazonaws.com/maven/pxp-mf/</url>-->
-<!--			<releases>-->
-<!--				<enabled>true</enabled>-->
-<!--			</releases>-->
-<!--			<snapshots>-->
-<!--				<enabled>true</enabled>-->
-<!--			</snapshots>-->
-<!--		</repository>-->
-<!--	</repositories>-->
-
-<!--	<pluginRepositories>-->
-<!--		<pluginRepository>-->
-<!--			<id>nextgen-pxp-mf-build&#45;&#45;pxp-mf-plugin-mirror</id>-->
-<!--			<name>nextgen-pxp-mf-build&#45;&#45;pxp-mf Repository Mirror - Plugins</name>-->
-<!--			<url>https://nextgen-pxp-mf-build-997401518295.d.codeartifact.us-east-2.amazonaws.com/maven/pxp-mf/</url>-->
-<!--		</pluginRepository>-->
-<!--	</pluginRepositories>-->
+	<!--	<repositories>-->
+	<!--		<repository>-->
+	<!--			<id>nextgen-pxp-mf-build&#45;&#45;pxp-mf-central</id>-->
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -51,7 +33,7 @@
 
 	<developers>
 		<developer>
-			<organization>crossasyst </organization>
+			<organization>Crossasyst Management</organization>
 			<url>https://www.crossasyst.com/</url>
 		</developer>
 	</developers>
@@ -95,7 +77,7 @@
 			</activation>
 			<properties>
 				<!-- Optional URL to server. Default value is http://localhost:9000 -->
-				<sonar.host.url>https://sonarqube.nextgen.com/</sonar.host.url>
+				<sonar.host.url>https://sonarqube.crossasyst.com/</sonar.host.url>
 			</properties>
 		</profile>
 	</profiles>
